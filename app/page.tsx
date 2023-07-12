@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-import '@fortawesome/fontawesome-free/css/all.min.css'
-
 const Landing = () => {
 
   return (
@@ -26,7 +24,7 @@ const Landing = () => {
       <header className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center justify-center gap-5">
           <Image src="/assets/images/lerian.jpg" alt="Lerian Febriana, A.Md.Kom" width={500} height={500} className="rounded-full w-32 h-32" />
-          <h4 className="text-slate-200">Hi, I'm Lerian Febriana, A.Md.Kom 👋</h4>
+          <h4 className="text-slate-200">Hi, I'm Lerian Febriana, A.Md.Kom</h4>
           <div className="text-slate-200 text-center">
             <h1 className="text-4xl font-reguler leading-normal"><b>Write Code</b> for Website as<br />Full-Stack Developer with <b>JavaScript</b>.</h1>
           </div>
@@ -36,44 +34,53 @@ const Landing = () => {
           </div> */}
         </div>
       </header>
-      <section className="bg-slate-800 py-10">
+      <section className="bg-slate-800 px-4 py-10">
         <div className="container mx-auto ">
-          <div className='flex flex-wrap justify-center text-white text-center gap-10'>
+          <div className='flex flex-wrap justify-center text-white text-center gap-5'>
             <div className='item'>
-              <i className="fa-brands fa-html5 fa-6x"></i>
+              <i className="fa-brands fa-html5 fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-css3-alt fa-6x"></i>
+              <i className="fa-brands fa-css3-alt fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-js fa-6x"></i>
+              <i className="fa-brands fa-js fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-node-js fa-6x"></i>
+              <i className="fa-brands fa-node-js fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-react fa-6x"></i>
+              <i className="fa-brands fa-react fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-php fa-6x"></i>
+              <i className="fa-brands fa-php fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-laravel fa-6x"></i>
+              <i className="fa-brands fa-laravel fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-bootstrap fa-6x"></i>
+              <i className="fa-brands fa-bootstrap fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-sass fa-6x"></i>
+              <i className="fa-brands fa-sass fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-git-alt fa-6x"></i>
+              <i className="fa-brands fa-git-alt fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-github fa-6x"></i>
+              <i className="fa-brands fa-github fa-4x"></i>
             </div>
             <div className="item">
-              <i className="fa-brands fa-cpanel fa-6x"></i>
+              <i className="fa-brands fa-cpanel fa-4x"></i>
+            </div>
+            <div className="item">
+              <i className="fa-brands fa-jenkins fa-4x"></i>
+            </div>
+            <div className="item">
+              <i className="fa-brands fa-docker fa-4x"></i>
+            </div>
+            <div className="item">
+              <i className="fa-brands fa-linux fa-4x"></i>
             </div>
           </div>
         </div>
