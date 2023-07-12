@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar"
+import './tailwind.css'
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,7 +9,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar/>
         {children}
         </body>
     </html>
