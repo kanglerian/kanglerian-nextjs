@@ -10,9 +10,9 @@ const Blog = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const getArticles = async () => {
-    await axios.get(`https://api.politekniklp3i-tasikmalaya.ac.id:4115/list`)
+    await axios.get(`https://devlerian-article.vercel.app/list`)
       .then((res) => {
-        setArticles(res.data);
+        setArticles(res.data.data);
         setIsLoaded(true);
       })
       .catch((err) => {
